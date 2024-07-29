@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'kanit';
+    src: url(/font/Kanit/Kanit-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+#container{
+    background-color: #fffee1;
+    height: 100vh;
+    width: 100vw;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.2rem #9e6d4e solid;
+    border-radius: 0.1rem;
+    margin: 0% 2%;
+    align-items: center;
+}
+.menu__titulo{
+    margin: 1% 4%;
+    font-size: 1rem;
+    font-family: 'kanit';
+    color: #9e6d4e;
+}
+.menu__navegacao{
+    margin: 1% 4%;
+}
+.menu__navegacao__links{
+    display: flex;
+    justify-content: space-between;
+    color: #9e6d4e;
+}
+
+.menu__navegacao__links__link{
+    padding: 3%;
+    color: #9e6d4e;
+    font-family: 'kanit';
+}
+
+.menu__navegacao__links__link a{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+}
+
