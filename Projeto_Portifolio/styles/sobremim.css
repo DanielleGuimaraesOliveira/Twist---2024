@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'kanit';
+    src: url(/font/Kanit/Kanit-Regular.ttf);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    padding: 0rem 3rem;
+    gap: 3rem;
+}
+
+.conteudo__area{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 70%;
+    height: 80vh;
+}
+.conteudo__area__imagem{
+    width: 70%;
+    border-radius: 4rem;
+    
+}
+.conteudo__area__texto{
+    width: 70%;
+    align-items: center;
+    
+    
+}
+
+.conteudo__area__texto__titulo{
+    color: #9e6d4e;
+    font-family: 'kanit';
+    font-size: 3rem;
+    text-wrap: nowrap;
+    margin-bottom: 2rem;
+}
+.conteudo__area__texto__paragrafo{
+
+    font-size: 1.7rem;
+    text-align: justify;
+
+}
